@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="nav_header_title">Боковая панель</string>
+    <string name="nav_header_subtitle">Количество обращений к серверу: </string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="about">About</string>
+    <string name="title_activity_image_details">ImageDetailsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="image_description_example">На данной фотографии изображено нечто совершенно существенное. В наших тайных планах взять имеющийся снимок и с помощью невероятной магии установить данный снимок на рабочий стол ввиде фона.</string>
+    <string name="set_image_question">Установить в качестве фона рабочего стола?</string>
+    <string name="setup">Установить</string>
+    <string name="aboutTitle">Тестовое задания</string>
+    <string name="aboutDescription">Тестовое приложение\n\n
+    <big>Приложение</big> \n
+Приложение на Android, который получает из сервиса изображений картинки и отображает их в основном экране. Есть возможность прокликать на картинку и перейти в подробности, чтобы поставить его на рабочий стол.
+\n\n
+        Необходимо произвести изменения:
+1) В окне подробности картинки необходимо заменить описание под картинкой на информацию о картинке, которая приходит с сервера (Любую информацию, если картинка приходит без информации, отобразить надпись: Информация не доступна)++++\n
+2) Добавить в окне с поднобностями кнопку сохранение картинки во внутреннюю память смартфона++++\n
+3) На основном экране изменить количество загружаемых картинок до 50 штук++++\n
+4) Создать новое окно Support, с отображением контактов - email и номер телефона++++\n
+5) Добавить возможность в боковой панели основного экрана перейти в окно Support.++++\n
+6) Добавить в приложение базу данных и сохранять в нее количество обращений к серверу?\n
+7) Добавить отображение количества отображений к серверу в боковую панель основного экрана++++\n</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="slide_down_for_update">Смахните вниз для загрузки изображений</string>
+    <string name="not_found_correct_image_try_again">Подходящие изображения не найдены. Повторите попытку загрузки, смахнув пальцем вниз.</string>
+    <string name="get_image_error">Невозможно изъять картинку</string>
+    <string name="image_set_success">Картинка установлена</string>
+    <string name="image_set_error">Во время установки произошла ошибка</string>
+    <string name="internet_not_available">Интернет не доступен</string>
+    <string name="need_network">Для дальнейшей работы необходим доступ в интернет</string>
+    <string name="tel_number">8-911-836-5809</string>
+    <string name="e_mail">agent_062@mail.ru</string>
+    <string name="contacts">Контакты</string>
+</resources>
